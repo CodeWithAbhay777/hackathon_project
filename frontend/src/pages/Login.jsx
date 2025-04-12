@@ -30,7 +30,7 @@ const Login = () => {
             alt="YouTube"
             className="h-6 mr-2"
           />
-          <span className="text-xl font-semibold">
+          <span className="text-xl font-semibold text-white">
             YouTuber
             <br />
             Community
@@ -38,7 +38,9 @@ const Login = () => {
         </div>
 
         {/* Heading */}
-        <h2 className="text-3xl font-bold text-center mb-6 white">Log in</h2>
+        <h2 className="text-3xl font-bold text-center mb-6 text-white">
+          Log in
+        </h2>
 
         {/* Form */}
         <form className="space-y-4">
@@ -82,11 +84,14 @@ const Login = () => {
           </button>
         </form>
 
-        <p className="mt-6 text-center text-sm text-gray-400">
+        <p className="text-white">
           Don't have an account?{" "}
-          <span className="text-blue-400 hover:underline cursor-pointer hover:scale-105 transition-transform duration-200 inline-block">
+          <Link
+            to="/signup"
+            className="text-blue-400 font-bold hover:underline"
+          >
             Sign up
-          </span>
+          </Link>
         </p>
       </div>
     </div>

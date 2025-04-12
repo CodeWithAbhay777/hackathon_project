@@ -1,5 +1,6 @@
 import React from "react";
 import { FaUser, FaEnvelope, FaLock, FaLink } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const SignUp = () => {
   return (
@@ -108,11 +109,11 @@ const SignUp = () => {
         </form>
 
         {/* Already have account */}
-        <p className="mt-6 text-center text-sm text-gray-400">
+        <p className="text-white">
           Already have an account?{" "}
-          <span className="text-blue-400 hover:underline cursor-pointer">
+          <Link to="/login" className="text-blue-400 font-bold hover:underline">
             Log in
-          </span>
+          </Link>
         </p>
       </div>
     </div>
