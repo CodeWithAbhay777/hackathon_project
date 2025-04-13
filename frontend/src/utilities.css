@@ -162,6 +162,7 @@
 .floating-nav {
     background-color: #000000;
     border-radius: 0.5rem;
+    padding: 30px 0 30px 0;
     border: 1px solid rgba(255, 255, 255, 0.2);
     /* from border-hsla */
 }
