@@ -1,4 +1,7 @@
+@import url("https://fonts.cdnfonts.com/css/general-sans");
+
 @import "tailwindcss";
+
 
 body{
     font-family: 'General Sans', sans-serif;
@@ -28,3 +31,4 @@ body{
         src: url('/fonts/robert-regular.woff2') format('woff2');
     }
 }
+
