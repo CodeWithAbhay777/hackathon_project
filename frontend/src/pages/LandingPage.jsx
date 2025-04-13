@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from '../components/LandingPageComponent/Hero'
 
 const LandingPage = () => {
   return (
-    <div className={`bg-[url(https://img.freepik.com/free-vector/tropical-leaves-background-zoom_23-2148580778.jpg?semt=ais_hybrid&w=740)] w-[100vw] h-[100vh] bg-center bg-cover` } >LandingPage</div>
+    <main className='relative min-h-screen w-screen overflow-x-hidden'>
+      <Hero />
+
+      <section className='z-0 min-h-screen bg-blue-500'/>
+    </main>
   )
 }
 
