@@ -9,7 +9,7 @@ const ImageClipBox = ({ src, clipClass }) => (
 
 const Contact = () => {
   return (
-    <div id="contact" className="my-20 min-h-96 w-screen  px-10">
+    <div id="contact" className="my-20 min-h-96 w-screen  px-10 ">
       <div className="relative rounded-lg bg-black py-24 color-blue-50 sm:overflow-hidden">
         <div className="absolute -left-20 top-0 hidden h-full w-72 overflow-hidden sm:block lg:left-20 lg:w-96">
           <ImageClipBox
@@ -40,7 +40,7 @@ const Contact = () => {
 
           <AnimatedTitle
             title="In a world where memories cost, how much to recall who you truly are?"
-            className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
+            className="special-font !md:text-[6.2rem] w-full font-lexend !text-5xl !font-black !leading-[.9]"
           />
 
           <Button title="contact us" containerClass="mt-10 cursor-pointer" />
