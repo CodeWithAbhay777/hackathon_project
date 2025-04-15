@@ -40,7 +40,7 @@ const Contact = () => {
 
           <AnimatedTitle
             title="In a world where memories cost, how much to recall who you truly are?"
-            className="special-font !md:text-[6.2rem] w-full font-lexend !text-5xl !font-black !leading-[.9]"
+            className="special-font !md:text-[6.2rem] w-full font-gilroy !text-5xl !font-black !leading-[.9]"
           />
 
           <Button title="contact us" containerClass="mt-10 cursor-pointer" />

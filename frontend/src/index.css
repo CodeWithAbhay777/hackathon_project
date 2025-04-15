@@ -31,10 +31,14 @@ body{
         font-family: 'robert-regular';
         src: url('/fonts/robert-regular.woff2') format('woff2');
     }
+    @font-face {
+        font-family: 'gilroy';
+        src: url('./font/Gilroy-Bold.ttf');
+    }
 }
 
-.font-lexend {
-    font-family: "Lexend", sans-serif;
+.font-gilroy {
+    font-family: "gilroy", sans-serif;
     font-weight: 500;
 }
 
