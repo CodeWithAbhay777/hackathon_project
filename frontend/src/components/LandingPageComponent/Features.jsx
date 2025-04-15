@@ -103,12 +103,10 @@ const Features = () => (
         <div className="container mx-auto px-3 md:px-10">
             <div className="px-5 py-32">
                 <p className="font-circular-web text-lg color-blue-50">
-                    Into the Metagame Layer
+                Where Anime & Reality converge
                 </p>
                 <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-                    Immerse yourself in a rich and ever-expanding universe where a vibrant
-                    array of products converge into an interconnected overlay experience
-                    on your world.
+                Immerse yourself in an ever-expanding multiverse where epic anime worlds collide, crafting a seamless storyscape across your reality
                 </p>
             </div>
 
@@ -117,10 +115,11 @@ const Features = () => (
                     src="videos/feature-1.mp4"
                     title={
                         <>
-                            radia<b>n</b>t
+                         Petals of the Forgotten
                         </>
                     }
-                    description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
+                    description=" She blooms with memories no one remembers.
+To find herself, she must vanish from everyone else’s story."
                     isComingSoon
                 />
             </BentoTilt>
@@ -131,10 +130,13 @@ const Features = () => (
                         src="videos/feature-2.mp4"
                         title={
                             <>
-                                zig<b>m</b>a
+                                 Ashen Gear: Corefall
                             </>
                         }
-                        description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
+                        description=" The gears of war stopped turning… or so they thought.
+Now, an orphaned pilot must restart a legacy long buried.
+
+"
                         isComingSoon
                     />
                 </BentoTilt>
@@ -157,10 +159,13 @@ const Features = () => (
                         src="videos/feature-4.mp4"
                         title={
                             <>
-                                az<b>u</b>l
+                                Soulsync: Parallel Pulse
                             </>
                         }
-                        description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
+                        description=" Two souls, one heartbeat, and a war across dimensions.
+When one dies, the other fades—unless they break the cycle.
+
+"
                         isComingSoon
                     />
                 </BentoTilt>

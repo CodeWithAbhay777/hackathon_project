@@ -106,14 +106,12 @@ const FloatingImage = () => {
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-              Where realms converge, lies Zentry and the boundless pillar.
-              Discover its secrets and shape your fate amidst infinite
-              opportunities.
+            In a city where cherry blossoms never stop falling, a high schooler stumbles upon a forgotten notebook that can rewrite memories. But every change comes with a price… and someone else is rewriting them too
             </p>
 
             <Button
               id="realm-btn"
-              title="discover prologue"
+              title="Coming soon...."
               containerClass="mt-5"
             />
           </div>

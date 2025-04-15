@@ -4,7 +4,7 @@ import { TiLocationArrow } from 'react-icons/ti';
 import { useWindowScroll } from 'react-use';
 import gsap from 'gsap';
 
-const navItems = ['Nexus', 'Vault', 'Prologue', 'About', 'Content'];
+const navItems = ['Home', 'Pricing', 'About', 'Contact'];
 
 const Navbar3 = () => {
   const [isAudioPlaying, setIsAudioPlaying] = useState(false);
@@ -65,7 +65,7 @@ const Navbar3 = () => {
 
             <Button
               id="product-button"
-              title="Products"
+              title="Connect"
               rightIcon={<TiLocationArrow />}
               ContainerClass="bg-blue-50 md:flex items-center justify-center gap-1"
             />
